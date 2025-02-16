@@ -3,8 +3,8 @@
 	"name": "Copy text to clipboard",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Wrap text in [! !] to turn it into a button that allows you to copy the text to the clipboard.",
+	"description": "Wrap text in {! and !} to turn it into a button. When you click the button it will copy the text to the clipboard.",
 	"author": "Jason Lawton",
-	"authorUrl": "https://jasonlawton.com",
+	"authorUrl": "https://jasonlawton.com/plugins/copy-text-to-clipboard/",
 	"isDesktopOnly": false
 }
