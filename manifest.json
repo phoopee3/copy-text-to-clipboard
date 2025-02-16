@@ -1,0 +1,10 @@
+{
+	"id": "copy-text-to-clipboard",
+	"name": "Copy text to clipboard",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Wrap text in [! !] to turn it into a button that allows you to copy the text to the clipboard.",
+	"author": "Jason Lawton",
+	"authorUrl": "https://jasonlawton.com",
+	"isDesktopOnly": false
+}
