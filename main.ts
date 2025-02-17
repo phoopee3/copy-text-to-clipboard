@@ -62,8 +62,10 @@ export default class WrapTextPlugin extends Plugin {
                 if (button) {
                     button.addEventListener('click', () => {
                         navigator.clipboard.writeText(p1).then(() => {
-                            console.log('Text copied to clipboard');
+                            new Notice('Text copied to clipboard');
+                            // console.log('Text copied to clipboard');
                         }).catch(err => {
+                            new Notice('Failed to copy text to clipboard');
                             console.error('Failed to copy text: ', err);
                         });
                     });
@@ -92,7 +94,7 @@ class ButtonWidget extends WidgetType {
         button.style.textAlign = 'left';
         button.onclick = () => {
             navigator.clipboard.writeText(this.text).then(() => {
-                console.log('Text copied to clipboard');
+                // console.log('Text copied to clipboard');
                 new Notice('Text copied to clipboard');
             }).catch(err => {
                 console.error('Failed to copy text: ', err);
